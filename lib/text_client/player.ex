@@ -34,18 +34,6 @@ defmodule TextClient.Player do
     |> play()
   end
 
-  defp display(game) do
-    game
-  end
-
-  defp prompt(game) do
-    game
-  end
-
-  defp make_move(game) do
-    game
-  end
-
   defp continue_with_message(game, message) do
     IO.puts(message)
     continue(game)
